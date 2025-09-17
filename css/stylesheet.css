@@ -195,3 +195,28 @@ header img {
         margin: 0.5rem 0;
     }
 }
+.badge-sale {
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.price-now {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: green;
+}
+.price-before {
+    font-size: 0.9rem;
+    text-decoration: line-through;
+    color: red;
+}
